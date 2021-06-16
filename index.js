@@ -1,8 +1,8 @@
 function createCard(book) {
     const imageUrl = book.img;
     const title = book.title;
-    const lastName = book.authorLastName;
-    const foreName = book.authorForeName;
+    const lastName = book.lastname;
+    const foreName = book.forename;
     const alreadyRead = book.alreadyRead;
     return `
         <li class="book">
