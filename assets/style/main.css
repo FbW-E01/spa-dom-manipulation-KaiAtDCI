@@ -2,10 +2,14 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    list-style-type: none;
   }
   
   .book {
     width: 12rem;
+    border: 1px solid black;
+      padding: 1rem;
+      margin: 1rem;
   }
   
   .status {
@@ -16,5 +20,6 @@
     max-height: 15rem;
     object-fit: cover;
     border: 0.2rem solid black;
+      margin-bottom: .5rem;
   }
   
